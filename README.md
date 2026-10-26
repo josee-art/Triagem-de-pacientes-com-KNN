@@ -17,7 +17,7 @@ Este é um projeto de estudo, criado para praticar os primeiros passos em Machin
 
 ```
 .
-├── main.py                       # Código principal
+├── knn.py                       # Código principal
 ├── pacientes_catalogados.csv     # Base de treino: pacientes com diagnóstico (170 registros)
 ├── pacientes_novos.csv           # Pacientes sem diagnóstico, para previsão (20 registros)
 └── README.md
