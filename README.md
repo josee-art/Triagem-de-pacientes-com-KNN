@@ -45,7 +45,7 @@ Contém 20 pacientes com as mesmas colunas de características, **sem** a coluna
 
 1. Os dados catalogados são lidos e a coluna `diagnostico` é separada como alvo (`y`). As demais colunas formam as características (`x`).
 2. A base é dividida em treino e teste (`train_test_split`, 70/30).
-3. O `StandardScaler` é ajustado **apenas nos dados de treino** e depois aplicado ao teste e aos novos pacientes. Isso evita vazamento de dados (*data leakage*).
+3. O `StandardScaler` é ajustado **apenas nos dados de treino** e depois aplicado ao teste e aos novos pacientes.
 4. O modelo KNN é treinado e avaliado nos dados de teste, e a acurácia é exibida.
 5. Os novos pacientes são padronizados com o mesmo padronizador e o modelo prevê o diagnóstico de cada um. O resultado aparece na coluna `diagnostico_previsto`.
 
