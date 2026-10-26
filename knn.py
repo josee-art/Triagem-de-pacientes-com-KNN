@@ -11,8 +11,7 @@ caminho_novos = os.path.join(pasta_atual, "pacientes_novos.csv")
 tabela = pd.read_csv(caminho_catalogados)
 print("\nDados dos pacientes já catalogados")
 print(tabela,"\n")
-info = tabela.info()
-print(info)
+tabela.info()
 y = tabela["diagnostico"]
 x = tabela.drop(columns=["diagnostico"])
 
